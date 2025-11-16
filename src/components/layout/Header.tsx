@@ -2,8 +2,6 @@ import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, ViewStyle } from 'react-native';
 import { MaterialIcons } from '@expo/vector-icons';
 import { useTheme } from '../../contexts/ThemeContext';
-import { spacing } from '../../theme/spacing';
-import { typography } from '../../theme/typography';
 
 interface HeaderProps {
   title: string;
@@ -51,7 +49,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-between',
     height: 56,
-    paddingHorizontal: spacing.md,
+    paddingHorizontal: 16,
     borderBottomWidth: 1,
     borderBottomColor: 'rgba(0,0,0,0.1)',
   },
@@ -64,11 +62,13 @@ const styles = StyleSheet.create({
     alignItems: 'flex-end',
   },
   title: {
-    ...typography.h3,
+    fontSize: 20,
+    fontWeight: '600',
+    lineHeight: 28,
     flex: 1,
     textAlign: 'center',
   },
   iconButton: {
-    padding: spacing.xs,
+    padding: 4,
   },
 });

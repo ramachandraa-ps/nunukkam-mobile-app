@@ -2,8 +2,6 @@ import React from 'react';
 import { View, Text, StyleSheet, ViewStyle } from 'react-native';
 import { MaterialIcons } from '@expo/vector-icons';
 import { useTheme } from '../../contexts/ThemeContext';
-import { spacing } from '../../theme/spacing';
-import { typography } from '../../theme/typography';
 import { Button } from '../common/Button';
 
 interface EmptyStateProps {
@@ -48,7 +46,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    padding: spacing.xl,
+    padding: 32,
   },
   iconContainer: {
     width: 120,
@@ -56,19 +54,23 @@ const styles = StyleSheet.create({
     borderRadius: 60,
     justifyContent: 'center',
     alignItems: 'center',
-    marginBottom: spacing.lg,
+    marginBottom: 24,
   },
   title: {
-    ...typography.h3,
-    marginBottom: spacing.sm,
+    fontSize: 20,
+    fontWeight: '600',
+    lineHeight: 28,
+    marginBottom: 8,
     textAlign: 'center',
   },
   message: {
-    ...typography.body,
+    fontSize: 16,
+    fontWeight: '400',
+    lineHeight: 24,
     textAlign: 'center',
-    marginBottom: spacing.lg,
+    marginBottom: 24,
   },
   button: {
-    marginTop: spacing.md,
+    marginTop: 16,
   },
 });

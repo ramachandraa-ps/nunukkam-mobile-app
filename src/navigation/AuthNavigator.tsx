@@ -1,21 +1,7 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import type { AuthStackParamList } from '../types';
-
-// Placeholder screens - will be implemented later
-import { View, Text } from 'react-native';
-
-const LoginScreen = () => (
-  <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-    <Text>Login Screen</Text>
-  </View>
-);
-
-const ForgotPasswordScreen = () => (
-  <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-    <Text>Forgot Password Screen</Text>
-  </View>
-);
+import { LoginScreen, ForgotPasswordScreen } from '../screens/auth';
 
 const Stack = createStackNavigator<AuthStackParamList>();
 

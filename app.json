@@ -15,13 +15,23 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.nunukkam.studentportal",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c9c5a34e-02a3-480d-a2aa-0ae9a1c11325"
+      }
     }
   }
 }

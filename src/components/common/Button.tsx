@@ -8,8 +8,6 @@ import {
   TextStyle,
 } from 'react-native';
 import { useTheme } from '../../contexts/ThemeContext';
-import { spacing } from '../../theme/spacing';
-import { typography } from '../../theme/typography';
 
 interface ButtonProps {
   title: string;
@@ -72,7 +70,7 @@ export const Button: React.FC<ButtonProps> = ({
   const buttonStyle: ViewStyle = {
     backgroundColor: getBackgroundColor(),
     height: getHeight(),
-    paddingHorizontal: spacing.md,
+    paddingHorizontal: 16,
     borderRadius: 8,
     justifyContent: 'center',
     alignItems: 'center',
@@ -86,9 +84,10 @@ export const Button: React.FC<ButtonProps> = ({
   };
 
   const textStyle: TextStyle = {
-    ...typography.button,
+    fontSize: size === 'small' ? 14 : 16,
+    fontWeight: '600',
+    lineHeight: 24,
     color: getTextColor(),
-    fontSize: size === 'small' ? 14 : typography.button.fontSize,
   };
 
   return (

@@ -22,6 +22,7 @@ export type JourneyStackParamList = {
   AssessmentText: { assessmentId: string };
   AssessmentVideo: { assessmentId: string };
   AssessmentResults: { resultId: string };
+  YourPerformance: undefined;
 };
 
 // Resume Stack

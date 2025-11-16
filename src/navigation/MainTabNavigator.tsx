@@ -13,7 +13,17 @@ import { LeaderboardNavigator } from './LeaderboardNavigator';
 const Tab = createBottomTabNavigator<MainTabParamList>();
 
 export const MainTabNavigator = () => {
-  const { colors } = useTheme();
+  const themeContext = useTheme();
+  const colors = themeContext?.colors || {
+    primary: '#7c3bed',
+    background: '#F5F7FA',
+    card: '#FFFFFF',
+    text: '#333333',
+    textSecondary: '#666666',
+    border: '#E0E0E0',
+    danger: '#D9534F',
+    success: '#50C878',
+  };
 
   return (
     <Tab.Navigator
@@ -22,8 +32,19 @@ export const MainTabNavigator = () => {
         tabBarActiveTintColor: colors.primary,
         tabBarInactiveTintColor: colors.textSecondary,
         tabBarStyle: {
-          backgroundColor: colors.surface,
+          backgroundColor: colors.card,
           borderTopColor: colors.border,
+          borderTopWidth: 1,
+          height: 60,
+          paddingBottom: 8,
+          paddingTop: 8,
+        },
+        tabBarLabelStyle: {
+          fontSize: 12,
+          fontWeight: '500' as any,
+        },
+        tabBarIconStyle: {
+          marginBottom: 0,
         },
       }}
     >

@@ -1,8 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, ViewStyle, TextStyle } from 'react-native';
 import { useTheme } from '../../contexts/ThemeContext';
-import { spacing } from '../../theme/spacing';
-import { typography } from '../../theme/typography';
 
 interface BadgeProps {
   label: string;
@@ -35,16 +33,17 @@ export const Badge: React.FC<BadgeProps> = ({ label, variant = 'default', style 
 
   const badgeStyle: ViewStyle = {
     backgroundColor: getBackgroundColor(),
-    paddingHorizontal: spacing.sm,
-    paddingVertical: spacing.xs / 2,
+    paddingHorizontal: 8,
+    paddingVertical: 2,
     borderRadius: 12,
     alignSelf: 'flex-start',
   };
 
   const textStyle: TextStyle = {
-    ...typography.caption,
-    color: getTextColor(),
+    fontSize: 12,
     fontWeight: '600',
+    lineHeight: 16,
+    color: getTextColor(),
   };
 
   return (

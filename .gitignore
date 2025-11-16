@@ -11,6 +11,8 @@ pnpm-debug.log*
 out/
 dist/
 .vercel/
+.screens-design/
+.kiro/
 
 # Env files
 .env

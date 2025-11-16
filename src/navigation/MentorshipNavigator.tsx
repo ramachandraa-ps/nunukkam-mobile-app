@@ -1,33 +1,12 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import type { MentorshipStackParamList } from '../types';
-
-// Placeholder screens
-import { View, Text } from 'react-native';
-
-const MentorshipDashboardScreen = () => (
-  <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-    <Text>Mentorship Dashboard</Text>
-  </View>
-);
-
-const BookSessionScreen = () => (
-  <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-    <Text>Book Session</Text>
-  </View>
-);
-
-const SessionNotesScreen = () => (
-  <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-    <Text>Session Notes</Text>
-  </View>
-);
-
-const CancelSessionScreen = () => (
-  <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-    <Text>Cancel Session</Text>
-  </View>
-);
+import {
+  MentorshipDashboardScreen,
+  BookSessionScreen,
+  SessionNotesScreen,
+  CancelSessionScreen,
+} from '../screens/mentorship';
 
 const Stack = createStackNavigator<MentorshipStackParamList>();
 

@@ -1,21 +1,7 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import type { ResumeStackParamList } from '../types';
-
-// Placeholder screens
-import { View, Text } from 'react-native';
-
-const ResumeDashboardScreen = () => (
-  <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-    <Text>Resume Dashboard</Text>
-  </View>
-);
-
-const ResumeBuilderScreen = () => (
-  <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-    <Text>Resume Builder</Text>
-  </View>
-);
+import { ResumeDashboardScreen, ResumeBuilderScreen } from '../screens/resume';
 
 const Stack = createStackNavigator<ResumeStackParamList>();
 

@@ -10,8 +10,6 @@ import {
 } from 'react-native';
 import { MaterialIcons } from '@expo/vector-icons';
 import { useTheme } from '../../contexts/ThemeContext';
-import { spacing } from '../../theme/spacing';
-import { typography } from '../../theme/typography';
 
 interface InputProps {
   label?: string;
@@ -27,6 +25,8 @@ interface InputProps {
   style?: ViewStyle;
   multiline?: boolean;
   numberOfLines?: number;
+  editable?: boolean;
+  autoCapitalize?: 'none' | 'sentences' | 'words' | 'characters';
 }
 
 export const Input: React.FC<InputProps> = ({
@@ -43,6 +43,8 @@ export const Input: React.FC<InputProps> = ({
   style,
   multiline = false,
   numberOfLines = 1,
+  editable = true,
+  autoCapitalize = 'sentences',
 }) => {
   const { colors } = useTheme();
   const [isFocused, setIsFocused] = useState(false);
@@ -74,7 +76,7 @@ export const Input: React.FC<InputProps> = ({
             styles.input,
             {
               color: colors.text,
-              paddingLeft: leftIcon ? 0 : spacing.md,
+              paddingLeft: leftIcon ? 0 : 16,
             },
             multiline && { height: numberOfLines * 24, textAlignVertical: 'top' },
           ]}
@@ -88,6 +90,8 @@ export const Input: React.FC<InputProps> = ({
           onBlur={() => setIsFocused(false)}
           multiline={multiline}
           numberOfLines={numberOfLines}
+          editable={editable}
+          autoCapitalize={autoCapitalize}
         />
         {rightIcon && (
           <TouchableOpacity onPress={onRightIconPress} style={styles.rightIcon}>
@@ -102,12 +106,13 @@ export const Input: React.FC<InputProps> = ({
 
 const styles = StyleSheet.create({
   container: {
-    marginBottom: spacing.md,
+    marginBottom: 16,
   },
   label: {
-    ...typography.bodySmall,
+    fontSize: 14,
     fontWeight: '500',
-    marginBottom: spacing.xs,
+    lineHeight: 20,
+    marginBottom: 4,
   },
   inputContainer: {
     flexDirection: 'row',
@@ -115,22 +120,26 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderRadius: 8,
     height: 56,
-    paddingHorizontal: spacing.md,
+    paddingHorizontal: 16,
   },
   input: {
     flex: 1,
-    ...typography.body,
-    paddingVertical: spacing.sm,
+    fontSize: 16,
+    fontWeight: '400',
+    lineHeight: 24,
+    paddingVertical: 8,
   },
   leftIcon: {
-    marginRight: spacing.sm,
+    marginRight: 8,
   },
   rightIcon: {
-    marginLeft: spacing.sm,
-    padding: spacing.xs,
+    marginLeft: 8,
+    padding: 4,
   },
   error: {
-    ...typography.caption,
-    marginTop: spacing.xs,
+    fontSize: 12,
+    fontWeight: '400',
+    lineHeight: 16,
+    marginTop: 4,
   },
 });

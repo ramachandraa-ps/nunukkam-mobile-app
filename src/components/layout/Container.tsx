@@ -1,7 +1,6 @@
 import React, { ReactNode } from 'react';
 import { ScrollView, View, StyleSheet, ViewStyle, RefreshControl } from 'react-native';
 import { useTheme } from '../../contexts/ThemeContext';
-import { spacing } from '../../theme/spacing';
 
 interface ContainerProps {
   children: ReactNode;
@@ -26,7 +25,7 @@ export const Container: React.FC<ContainerProps> = ({
   };
 
   const contentStyle: ViewStyle = {
-    padding: spacing.md,
+    padding: 16,
   };
 
   if (scrollable) {
