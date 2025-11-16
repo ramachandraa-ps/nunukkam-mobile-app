@@ -1,0 +1,68 @@
+[
+  {
+    "id": "session-1",
+    "mentorId": "mentor-1",
+    "mentor": {
+      "id": "mentor-1",
+      "name": "Rajesh Kumar",
+      "title": "Senior Software Engineer at Google",
+      "profilePicture": "https://i.pravatar.cc/150?img=12",
+      "expertise": ["React", "Node.js", "System Design"]
+    },
+    "studentId": "student-1",
+    "date": "2025-11-20",
+    "time": "10:00 AM",
+    "duration": 60,
+    "status": "upcoming",
+    "meetingLink": "https://meet.google.com/abc-defg-hij"
+  },
+  {
+    "id": "session-2",
+    "mentorId": "mentor-2",
+    "mentor": {
+      "id": "mentor-2",
+      "name": "Anita Desai",
+      "title": "Tech Lead at Microsoft",
+      "profilePicture": "https://i.pravatar.cc/150?img=5",
+      "expertise": ["JavaScript", "TypeScript", "Career Guidance"]
+    },
+    "studentId": "student-1",
+    "date": "2025-11-10",
+    "time": "2:00 PM",
+    "duration": 60,
+    "status": "completed",
+    "notes": {
+      "discussionPoints": [
+        "Reviewed JavaScript fundamentals",
+        "Discussed career path in web development",
+        "Explored best practices for code organization"
+      ],
+      "actionItems": [
+        {
+          "id": "action-1",
+          "description": "Complete JavaScript advanced concepts course",
+          "isCompleted": true
+        },
+        {
+          "id": "action-2",
+          "description": "Build a portfolio project using React",
+          "isCompleted": false
+        },
+        {
+          "id": "action-3",
+          "description": "Practice coding problems on LeetCode",
+          "isCompleted": false
+        }
+      ],
+      "attachments": [
+        {
+          "id": "attach-1",
+          "name": "JavaScript Resources.pdf",
+          "url": "https://example.com/resources.pdf",
+          "type": "application/pdf",
+          "uploadedAt": "2025-11-10T14:30:00Z"
+        }
+      ]
+    }
+  }
+]

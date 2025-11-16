@@ -1,0 +1,40 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# Next.js
+.next/
+out/
+dist/
+.vercel/
+
+# Env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor/OS
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
+
+# Testing/coverage
+coverage/
+
+# Turbo/Build caches
+.turbo/
+
+
+
+
+
+
+
+

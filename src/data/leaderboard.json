@@ -1,0 +1,67 @@
+[
+  {
+    "rank": 1,
+    "studentId": "student-2",
+    "studentName": "Arjun Patel",
+    "profilePicture": "https://i.pravatar.cc/150?img=11",
+    "points": 3200,
+    "proficiency": {
+      "expert": 65,
+      "intermediate": 25,
+      "novice": 10
+    },
+    "college": "IIT Bombay"
+  },
+  {
+    "rank": 2,
+    "studentId": "student-3",
+    "studentName": "Sneha Reddy",
+    "profilePicture": "https://i.pravatar.cc/150?img=9",
+    "points": 2980,
+    "proficiency": {
+      "expert": 60,
+      "intermediate": 30,
+      "novice": 10
+    },
+    "college": "BITS Pilani"
+  },
+  {
+    "rank": 3,
+    "studentId": "student-4",
+    "studentName": "Vikram Singh",
+    "profilePicture": "https://i.pravatar.cc/150?img=13",
+    "points": 2750,
+    "proficiency": {
+      "expert": 55,
+      "intermediate": 30,
+      "novice": 15
+    },
+    "college": "NIT Trichy"
+  },
+  {
+    "rank": 4,
+    "studentId": "student-5",
+    "studentName": "Meera Iyer",
+    "profilePicture": "https://i.pravatar.cc/150?img=10",
+    "points": 2600,
+    "proficiency": {
+      "expert": 50,
+      "intermediate": 35,
+      "novice": 15
+    },
+    "college": "IIT Madras"
+  },
+  {
+    "rank": 5,
+    "studentId": "student-1",
+    "studentName": "Priya Sharma",
+    "profilePicture": "https://i.pravatar.cc/150?img=1",
+    "points": 2450,
+    "proficiency": {
+      "expert": 45,
+      "intermediate": 35,
+      "novice": 20
+    },
+    "college": "IIT Delhi"
+  }
+]

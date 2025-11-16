@@ -1,0 +1,65 @@
+[
+  {
+    "id": "task-1",
+    "title": "Complete JavaScript Functions Chapter",
+    "description": "Watch the video and complete the exercises",
+    "type": "chapter",
+    "status": "pending",
+    "priority": "high",
+    "deadline": "2025-11-18T23:59:59Z",
+    "progress": 0,
+    "moduleId": "module-2",
+    "chapterId": "chapter-4",
+    "actionLabel": "Start"
+  },
+  {
+    "id": "task-2",
+    "title": "JavaScript Fundamentals Test",
+    "description": "Complete the MCQ assessment for Module 2",
+    "type": "assessment",
+    "status": "pending",
+    "priority": "high",
+    "deadline": "2025-11-20T23:59:59Z",
+    "progress": 0,
+    "moduleId": "module-2",
+    "assessmentId": "assessment-2",
+    "actionLabel": "Start"
+  },
+  {
+    "id": "task-3",
+    "title": "Build a Landing Page",
+    "description": "Text assessment for HTML & CSS module",
+    "type": "assessment",
+    "status": "in-progress",
+    "priority": "medium",
+    "deadline": "2025-11-22T23:59:59Z",
+    "progress": 45,
+    "moduleId": "module-1",
+    "assessmentId": "assessment-3",
+    "actionLabel": "Resume"
+  },
+  {
+    "id": "task-4",
+    "title": "Update Resume",
+    "description": "Add recent projects to your resume",
+    "type": "assignment",
+    "status": "overdue",
+    "priority": "medium",
+    "deadline": "2025-11-15T23:59:59Z",
+    "progress": 30,
+    "actionLabel": "Resume"
+  },
+  {
+    "id": "task-5",
+    "title": "HTML & CSS Quiz Retake",
+    "description": "Improve your score to reach expert level",
+    "type": "assessment",
+    "status": "completed",
+    "priority": "low",
+    "deadline": "2025-11-10T23:59:59Z",
+    "progress": 100,
+    "moduleId": "module-1",
+    "assessmentId": "assessment-1",
+    "actionLabel": "Retake"
+  }
+]

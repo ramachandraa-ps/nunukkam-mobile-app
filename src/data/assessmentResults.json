@@ -1,0 +1,26 @@
+[
+  {
+    "id": "result-1",
+    "assessmentId": "assessment-1",
+    "studentId": "student-1",
+    "score": 85,
+    "proficiencyLevel": "intermediate",
+    "rank": 12,
+    "totalParticipants": 50,
+    "completedAt": "2025-11-15T08:45:00Z",
+    "answers": [
+      {
+        "questionId": "q1",
+        "selectedAnswer": 0,
+        "isCorrect": true,
+        "correctAnswer": 0
+      },
+      {
+        "questionId": "q2",
+        "selectedAnswer": 2,
+        "isCorrect": true,
+        "correctAnswer": 2
+      }
+    ]
+  }
+]

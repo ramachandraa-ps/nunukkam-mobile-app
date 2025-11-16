@@ -1,0 +1,58 @@
+[
+  {
+    "id": "assessment-1",
+    "moduleId": "module-1",
+    "title": "HTML & CSS Quiz",
+    "type": "mcq",
+    "duration": 30,
+    "totalQuestions": 10,
+    "passingScore": 70,
+    "isCompleted": true,
+    "isLocked": false,
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What does HTML stand for?",
+        "options": [
+          "Hyper Text Markup Language",
+          "High Tech Modern Language",
+          "Home Tool Markup Language",
+          "Hyperlinks and Text Markup Language"
+        ],
+        "correctAnswer": 0,
+        "explanation": "HTML stands for Hyper Text Markup Language, which is the standard markup language for creating web pages."
+      },
+      {
+        "id": "q2",
+        "question": "Which CSS property is used to change text color?",
+        "options": ["text-color", "font-color", "color", "text-style"],
+        "correctAnswer": 2,
+        "explanation": "The 'color' property is used to set the color of text in CSS."
+      }
+    ]
+  },
+  {
+    "id": "assessment-2",
+    "moduleId": "module-2",
+    "title": "JavaScript Fundamentals Test",
+    "type": "mcq",
+    "duration": 45,
+    "totalQuestions": 15,
+    "passingScore": 70,
+    "isCompleted": false,
+    "isLocked": false,
+    "questions": []
+  },
+  {
+    "id": "assessment-3",
+    "moduleId": "module-1",
+    "title": "Build a Landing Page",
+    "type": "text",
+    "duration": 120,
+    "passingScore": 70,
+    "isCompleted": false,
+    "isLocked": false,
+    "prompt": "Describe your approach to building a responsive landing page. Include HTML structure, CSS styling strategy, and accessibility considerations.",
+    "maxCharacters": 2000
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "id": "student-1",
+    "name": "Priya Sharma",
+    "email": "priya.sharma@example.com",
+    "phone": "+91 98765 43210",
+    "college": "IIT Delhi",
+    "profilePicture": "https://i.pravatar.cc/150?img=1",
+    "bio": "Aspiring software engineer passionate about web development and AI",
+    "progress": {
+      "modulesCompleted": 8,
+      "totalModules": 12,
+      "chaptersCompleted": 45,
+      "totalChapters": 60,
+      "assessmentsCompleted": 15,
+      "totalAssessments": 20
+    },
+    "attendance": [
+      { "date": "2025-11-01", "status": "present", "sessionDetails": "React Fundamentals" },
+      { "date": "2025-11-02", "status": "present", "sessionDetails": "State Management" },
+      { "date": "2025-11-03", "status": "absent" },
+      { "date": "2025-11-04", "status": "present", "sessionDetails": "API Integration" },
+      { "date": "2025-11-05", "status": "present", "sessionDetails": "Testing Basics" }
+    ],
+    "badges": [
+      {
+        "id": "badge-1",
+        "name": "Fast Learner",
+        "icon": "⚡",
+        "earnedDate": "2025-10-15",
+        "description": "Completed 5 modules in record time"
+      },
+      {
+        "id": "badge-2",
+        "name": "Perfect Score",
+        "icon": "🎯",
+        "earnedDate": "2025-10-20",
+        "description": "Scored 100% in an assessment"
+      }
+    ],
+    "rank": 5,
+    "points": 2450,
+    "proficiency": {
+      "expert": 45,
+      "intermediate": 35,
+      "novice": 20
+    }
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "id": "course-1",
+    "name": "Full Stack Web Development",
+    "description": "Master modern web development with React, Node.js, and databases",
+    "duration": "6 months",
+    "thumbnail": "https://picsum.photos/seed/webdev/400/300",
+    "modules": [
+      {
+        "id": "module-1",
+        "courseId": "course-1",
+        "name": "HTML & CSS Fundamentals",
+        "description": "Learn the building blocks of web development",
+        "duration": "2 weeks",
+        "progress": 100,
+        "isLocked": false,
+        "thumbnail": "https://picsum.photos/seed/html/400/300",
+        "chapters": [
+          {
+            "id": "chapter-1",
+            "moduleId": "module-1",
+            "title": "Introduction to HTML",
+            "description": "Learn HTML basics and structure",
+            "duration": "45 min",
+            "isCompleted": true,
+            "isLocked": false,
+            "order": 1
+          },
+          {
+            "id": "chapter-2",
+            "moduleId": "module-1",
+            "title": "CSS Styling",
+            "description": "Master CSS for beautiful designs",
+            "duration": "60 min",
+            "isCompleted": true,
+            "isLocked": false,
+            "order": 2
+          }
+        ],
+        "assessments": ["assessment-1"]
+      },
+      {
+        "id": "module-2",
+        "courseId": "course-1",
+        "name": "JavaScript Essentials",
+        "description": "Master JavaScript programming fundamentals",
+        "duration": "3 weeks",
+        "progress": 65,
+        "isLocked": false,
+        "thumbnail": "https://picsum.photos/seed/js/400/300",
+        "chapters": [
+          {
+            "id": "chapter-3",
+            "moduleId": "module-2",
+            "title": "JavaScript Basics",
+            "description": "Variables, data types, and operators",
+            "duration": "50 min",
+            "isCompleted": true,
+            "isLocked": false,
+            "order": 1
+          },
+          {
+            "id": "chapter-4",
+            "moduleId": "module-2",
+            "title": "Functions and Scope",
+            "description": "Understanding functions in JavaScript",
+            "duration": "55 min",
+            "isCompleted": false,
+            "isLocked": false,
+            "order": 2
+          }
+        ],
+        "assessments": ["assessment-2"]
+      },
+      {
+        "id": "module-3",
+        "courseId": "course-1",
+        "name": "React Development",
+        "description": "Build modern UIs with React",
+        "duration": "4 weeks",
+        "progress": 0,
+        "isLocked": true,
+        "thumbnail": "https://picsum.photos/seed/react/400/300",
+        "chapters": [],
+        "assessments": []
+      }
+    ]
+  }
+]

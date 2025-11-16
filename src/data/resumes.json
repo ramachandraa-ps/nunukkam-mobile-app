@@ -1,0 +1,36 @@
+[
+  {
+    "id": "resume-1",
+    "studentId": "student-1",
+    "title": "Software Engineer Resume",
+    "lastEdited": "2025-11-15T10:30:00Z",
+    "sections": [
+      {
+        "type": "summary",
+        "data": {
+          "text": "Passionate computer science student with strong foundation in web development and problem-solving skills."
+        }
+      },
+      {
+        "type": "qualifications",
+        "data": [
+          {
+            "degree": "B.Tech in Computer Science",
+            "institution": "IIT Delhi",
+            "year": "2026",
+            "grade": "8.5 CGPA"
+          }
+        ]
+      },
+      {
+        "type": "skills",
+        "data": [
+          { "name": "JavaScript", "level": "advanced" },
+          { "name": "React", "level": "intermediate" },
+          { "name": "Node.js", "level": "intermediate" },
+          { "name": "HTML/CSS", "level": "expert" }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "mentor-1",
+    "name": "Rajesh Kumar",
+    "title": "Senior Software Engineer at Google",
+    "profilePicture": "https://i.pravatar.cc/150?img=12",
+    "expertise": ["React", "Node.js", "System Design"],
+    "availableSlots": [
+      { "date": "2025-11-20", "time": "10:00 AM", "isAvailable": true },
+      { "date": "2025-11-20", "time": "2:00 PM", "isAvailable": true },
+      { "date": "2025-11-21", "time": "11:00 AM", "isAvailable": false },
+      { "date": "2025-11-22", "time": "3:00 PM", "isAvailable": true }
+    ]
+  },
+  {
+    "id": "mentor-2",
+    "name": "Anita Desai",
+    "title": "Tech Lead at Microsoft",
+    "profilePicture": "https://i.pravatar.cc/150?img=5",
+    "expertise": ["JavaScript", "TypeScript", "Career Guidance"],
+    "availableSlots": [
+      { "date": "2025-11-19", "time": "9:00 AM", "isAvailable": true },
+      { "date": "2025-11-19", "time": "4:00 PM", "isAvailable": true },
+      { "date": "2025-11-21", "time": "10:00 AM", "isAvailable": true }
+    ]
+  },
+  {
+    "id": "mentor-3",
+    "name": "Karthik Menon",
+    "title": "Full Stack Developer at Amazon",
+    "profilePicture": "https://i.pravatar.cc/150?img=14",
+    "expertise": ["Python", "Django", "AWS"],
+    "availableSlots": [
+      { "date": "2025-11-20", "time": "1:00 PM", "isAvailable": true },
+      { "date": "2025-11-23", "time": "11:00 AM", "isAvailable": true }
+    ]
+  }
+]

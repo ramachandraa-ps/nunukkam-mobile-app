@@ -1,0 +1,27 @@
+[
+  {
+    "id": "notif-1",
+    "type": "assessment",
+    "title": "Assessment Result Available",
+    "message": "Your HTML & CSS Quiz result is now available. You scored 85%!",
+    "timestamp": "2025-11-15T09:00:00Z",
+    "isRead": false,
+    "actionUrl": "/assessment-results/result-1"
+  },
+  {
+    "id": "notif-2",
+    "type": "announcement",
+    "title": "New Module Unlocked",
+    "message": "Congratulations! You've unlocked the React Development module.",
+    "timestamp": "2025-11-14T14:30:00Z",
+    "isRead": false
+  },
+  {
+    "id": "notif-3",
+    "type": "mentorship",
+    "title": "Upcoming Mentorship Session",
+    "message": "Your session with Rajesh Kumar is scheduled for Nov 20 at 10:00 AM",
+    "timestamp": "2025-11-13T08:00:00Z",
+    "isRead": true
+  }
+]
